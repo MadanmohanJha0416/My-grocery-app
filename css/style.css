@@ -5,7 +5,7 @@
     --red:#A8437D;
     --black:#130f40;
     --light-color:#666;
-    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+    --box-shadow:0 .5rem 1.5rem rgba(188, 135, 135, 0.1);
     --border:.2rem solid rgba(0,0,0,.1);
     --outline:.1rem solid rgba(0,0,0,.1);
     --outline-hover:.2rem solid var(--black);
@@ -82,7 +82,8 @@ section{
     justify-content: space-between;
     padding:2rem 9%;
     background:#fff;
-    box-shadow: var(--box-shadow);
+    /* box-shadow: var(--box-shadow); */
+    box-shadow: 1px 1px 3px rgb(255, 255, 255);
 }
 
 .header .logo{
@@ -322,7 +323,8 @@ section{
     outline: var(--outline);
     outline-offset: -1rem;
     text-align: center;
-    box-shadow: var(--box-shadow);
+    /* box-shadow: var(--box-shadow); */
+    box-shadow: 2px 2px 5px rgb(255, 255, 255);
 }
 
 .features .box-container .box:hover{
@@ -365,7 +367,8 @@ section{
     padding:3rem 2rem;
     outline-offset: -1rem;
     outline: var(--outline);
-    box-shadow: var(--box-shadow);
+    /* box-shadow: var(--box-shadow); */
+    box-shadow: 2px 2px 5px rgb(255, 255, 255);
     transition: .2s linear;
 }
 
@@ -407,7 +410,8 @@ section{
     padding:3rem 2rem;
     border-radius: .5rem;
     background:#fff;
-    box-shadow: var(--box-shadow);
+    /* box-shadow: var(--box-shadow); */
+    box-shadow: 2px 2px 5px rgb(255, 255, 255);
     outline:var(--outline);
     outline-offset: -1rem;
     text-align: center;
@@ -449,7 +453,8 @@ section{
     padding:3rem 2rem;
     outline-offset: -1rem;
     outline: var(--outline);
-    box-shadow: var(--box-shadow);
+    /* box-shadow: var(--box-shadow); */
+    box-shadow: 2px 2px 5px rgb(255, 255, 255);
     transition: .2s linear;
 }
 
@@ -493,14 +498,15 @@ section{
 .blogs .box-container .box{
     overflow: hidden;
     border-radius: .5rem;
-    box-shadow: var(--box-shadow);
+    /* box-shadow: var(--box-shadow); */
+    box-shadow: 2px 2px 5px rgb(255, 255, 255);
     background:#fff;
-    /* box-shadow: 80px; */
+    
 }
 
 .box-container .box{
     border-radius: 10px;
-    box-shadow: #130f40 ;
+    /* box-shadow: 2px 2px 4px rgba(33, 29, 29, 0.2); */
 }
 .blogs .box-container .box img{
     height:25rem;
@@ -686,7 +692,8 @@ section{
         position: absolute;
         top:110%; right:-110%;
         width:30rem;
-        box-shadow: var(--box-shadow);
+        /* box-shadow: var(--box-shadow); */
+        box-shadow: 2px 2px 5px rgb(255, 255, 255);
         border-radius: .5rem;
         background: #fff;
     }
